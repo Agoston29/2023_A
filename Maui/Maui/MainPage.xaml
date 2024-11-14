@@ -1,0 +1,91 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Maui.Mountain"
+             x:Class="Maui.MainPage">
+    
+    <!-- 1. és 2. sor csak alapértelmezett beállítások.-->
+    <!-- 3. sorban lévő kód, ezzel tudom elérni a saját osztályaimat !! -->
+    <!-- 4. sorban lévő kód, háttér c# kóddal összeköti a xaml. fájlt (MainPage.xaml.cs) -->
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <local:ClimbColorConverter x:Key="ColorConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>  <!-- Sorok definiálása -->
+            <RowDefinition Height="Auto" />            
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />            
+            <RowDefinition Height="Auto" />            
+            <RowDefinition Height="Auto" />            
+            <RowDefinition Height="Auto" /> 
+            <!-- * sor kitölti a rendelkezésre álló helyet, az összes Auto magasságú sor után-->
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>  <!-- Oszlopok definiálása-->            
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Hegymászás Főcím a 0.sorban -->
+        <Label Text="Hegymászás" Grid.Row="0" WidthRequest="2500" Grid.ColumnSpan="2" HorizontalOptions="Start" FontSize="Large" BackgroundColor="IndianRed" />
+
+        <!-- Hegyek: alárendelt cím az 1.sorban -->
+        <Label Text="Hegyek:" Grid.Row="1" WidthRequest="2500" Grid.ColumnSpan="2" HorizontalOptions="Start" FontSize="Small" BackgroundColor="LightGray" />
+
+        <!-- Hegyek ListView-ja (listát jelenít meg) -->
+        <ListView x:Name="MountainsListView"
+                  Grid.Row="2" Grid.Column="0"
+                  BackgroundColor="White"
+                  ItemsSource="{Binding Mountains}" 
+                  SelectedItem="{Binding SelectedMountain}">
+                    <!-- Hegyek collekció (Hegyeket tartalmazó lista) és a kiválasztott hegy összekapcsolása az UI-val.-->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}"
+                              TextColor="{Binding IsClimbed, Converter={StaticResource ColorConverter}}" />
+                    <!-- Minden elem nevét jeleníti meg, a színe a konverter miatt változik meg.-->
+                    <!-- Ehhez a DataTemplate - TextCell kombó kell-->
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!-- Jobb oldali rész a szövegekkel (Sorok és oszlopok külön a jobb részben) -->
+        <Grid Grid.Row="2" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />                
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Név -->
+            <Label Text="Név:" Grid.Row="0" Grid.Column="0" />
+            <Label Text="{Binding SelectedMountain.Name}" Grid.Row="0" Grid.Column="1" />
+
+            <!-- Magasság -->
+            <Label Text="Magasság:" Grid.Row="1" Grid.Column="0" />
+            <Label Text="{Binding SelectedMountain.Height}" Grid.Row="1" Grid.Column="1" />
+
+            <!-- Megmászva -->
+            <Label Text="Megmászva?" Grid.Row="2" Grid.Column="0" />
+            <CheckBox IsChecked="{Binding SelectedMountain.IsClimbed}" Grid.Row="2" Grid.Column="1" />
+
+            <!-- Gomb a szöveg alatt -->
+            <Button Text="Megmászási állapotok törlése"
+                    Grid.Row="4" Grid.Column="1"
+                    Command="{Binding ClearClimbsCommand}"                    
+                    HorizontalOptions="Start" 
+                    VerticalOptions="Start" />
+            <!-- Gombnak a funkciót a ClearClimbsCommand-ot adja át adatkötéssel. -->
+        </Grid>
+
+    </Grid>
+</ContentPage>
