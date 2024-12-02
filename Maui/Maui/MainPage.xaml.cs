@@ -7,7 +7,7 @@ namespace Maui
         public MainPage()
         {
             InitializeComponent();
-            BindingContext = new MountainViewModel(); // összeköti a MainPage-t a MountainViewModel-el
+            BindingContext = new MountainViewModel(); // összeköti a MainPage-t a MountainViewModel-el DAGADT
         }
     }
 }

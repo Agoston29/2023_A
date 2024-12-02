@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\2023\\Maui\\",
+  "WorkspaceRootPath": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\CMD_gyak\\2023_A\\Maui\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0EFF3F50-41A8-489A-A19D-41DC9851BBFA}|Maui\\Maui.csproj|c:\\\u00E1goston\\egyetem\\3.f\u00E9l\u00E9v\\prog\\2_zh_gyakorlas\\2023\\maui\\maui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EFF3F50-41A8-489A-A19D-41DC9851BBFA}|Maui\\Maui.csproj|c:\\\u00E1goston\\egyetem\\3.f\u00E9l\u00E9v\\prog\\2_zh_gyakorlas\\cmd_gyak\\2023_a\\maui\\maui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EFF3F50-41A8-489A-A19D-41DC9851BBFA}|Maui\\Maui.csproj|solutionrelative:maui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EFF3F50-41A8-489A-A19D-41DC9851BBFA}|Maui\\Maui.csproj|c:\\\u00E1goston\\egyetem\\3.f\u00E9l\u00E9v\\prog\\2_zh_gyakorlas\\2023\\maui\\maui\\mountain\\mountainek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0EFF3F50-41A8-489A-A19D-41DC9851BBFA}|Maui\\Maui.csproj|c:\\\u00E1goston\\egyetem\\3.f\u00E9l\u00E9v\\prog\\2_zh_gyakorlas\\cmd_gyak\\2023_a\\maui\\maui\\mountain\\mountainek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0EFF3F50-41A8-489A-A19D-41DC9851BBFA}|Maui\\Maui.csproj|solutionrelative:maui\\mountain\\mountainek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0EFF3F50-41A8-489A-A19D-41DC9851BBFA}|Maui\\Maui.csproj|c:\\\u00E1goston\\egyetem\\3.f\u00E9l\u00E9v\\prog\\2_zh_gyakorlas\\2023\\maui\\maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{0EFF3F50-41A8-489A-A19D-41DC9851BBFA}|Maui\\Maui.csproj|c:\\\u00E1goston\\egyetem\\3.f\u00E9l\u00E9v\\prog\\2_zh_gyakorlas\\cmd_gyak\\2023_a\\maui\\maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0EFF3F50-41A8-489A-A19D-41DC9851BBFA}|Maui\\Maui.csproj|solutionrelative:maui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\2023\\Maui\\Maui\\MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\CMD_gyak\\2023_A\\Maui\\Maui\\MainPage.xaml.cs",
               "RelativeDocumentMoniker": "Maui\\MainPage.xaml.cs",
-              "ToolTip": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\2023\\Maui\\Maui\\MainPage.xaml.cs",
+              "ToolTip": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\CMD_gyak\\2023_A\\Maui\\Maui\\MainPage.xaml.cs",
               "RelativeToolTip": "Maui\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T13:14:28.956Z",
               "EditorCaption": ""
@@ -45,27 +45,25 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Mountainek.cs",
-              "DocumentMoniker": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\2023\\Maui\\Maui\\Mountain\\Mountainek.cs",
+              "DocumentMoniker": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\CMD_gyak\\2023_A\\Maui\\Maui\\Mountain\\Mountainek.cs",
               "RelativeDocumentMoniker": "Maui\\Mountain\\Mountainek.cs",
-              "ToolTip": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\2023\\Maui\\Maui\\Mountain\\Mountainek.cs",
+              "ToolTip": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\CMD_gyak\\2023_A\\Maui\\Maui\\Mountain\\Mountainek.cs",
               "RelativeToolTip": "Maui\\Mountain\\Mountainek.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAACNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T13:09:00.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T13:09:00.148Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\2023\\Maui\\Maui\\MainPage.xaml",
+              "DocumentMoniker": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\CMD_gyak\\2023_A\\Maui\\Maui\\MainPage.xaml",
               "RelativeDocumentMoniker": "Maui\\MainPage.xaml",
-              "ToolTip": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\2023\\Maui\\Maui\\MainPage.xaml",
+              "ToolTip": "C:\\\u00C1goston\\Egyetem\\3.f\u00E9l\u00E9v\\Prog\\2_ZH_GYAKORLAS\\CMD_gyak\\2023_A\\Maui\\Maui\\MainPage.xaml",
               "RelativeToolTip": "Maui\\MainPage.xaml",
               "ViewState": "AgIAAEQAAAAAAAAAAAAAABgAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-14T07:48:43.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T07:48:43.48Z"
             }
           ]
         }

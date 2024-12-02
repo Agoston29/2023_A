@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wKsD0TzjP1o=",
+  "dgSpecHash": "5OoSNB7wsho=",
   "success": true,
-  "projectFilePath": "C:\\Ágoston\\Egyetem\\3.félév\\Prog\\2_ZH_GYAKORLAS\\2023_A\\Maui\\Maui\\Maui.csproj",
+  "projectFilePath": "C:\\Ágoston\\Egyetem\\3.félév\\Prog\\2_ZH_GYAKORLAS\\CMD_gyak\\2023_A\\Maui\\Maui\\Maui.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\himes\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\himes\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

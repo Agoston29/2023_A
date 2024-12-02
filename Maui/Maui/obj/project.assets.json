@@ -32925,11 +32925,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ágoston\\Egyetem\\3.félév\\Prog\\2_ZH_GYAKORLAS\\2023_A\\Maui\\Maui\\Maui.csproj",
+      "projectUniqueName": "C:\\Ágoston\\Egyetem\\3.félév\\Prog\\2_ZH_GYAKORLAS\\CMD_gyak\\2023_A\\Maui\\Maui\\Maui.csproj",
       "projectName": "Maui",
-      "projectPath": "C:\\Ágoston\\Egyetem\\3.félév\\Prog\\2_ZH_GYAKORLAS\\2023_A\\Maui\\Maui\\Maui.csproj",
+      "projectPath": "C:\\Ágoston\\Egyetem\\3.félév\\Prog\\2_ZH_GYAKORLAS\\CMD_gyak\\2023_A\\Maui\\Maui\\Maui.csproj",
       "packagesPath": "C:\\Users\\himes\\.nuget\\packages\\",
-      "outputPath": "C:\\Ágoston\\Egyetem\\3.félév\\Prog\\2_ZH_GYAKORLAS\\2023_A\\Maui\\Maui\\obj\\",
+      "outputPath": "C:\\Ágoston\\Egyetem\\3.félév\\Prog\\2_ZH_GYAKORLAS\\CMD_gyak\\2023_A\\Maui\\Maui\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
